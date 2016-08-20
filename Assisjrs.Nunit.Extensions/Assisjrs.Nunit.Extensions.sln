@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assisjrs.Nunit.Extensions.NDbUnit", "Assisjrs.Nunit.Extensions.NDbUnit\Assisjrs.Nunit.Extensions.NDbUnit.csproj", "{B36883E7-FE68-4DDD-8345-887D7493ABE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDbUnit", "NDbUnit\NDbUnit.csproj", "{B36883E7-FE68-4DDD-8345-887D7493ABE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDbUnitTest", "NDbUnitTest\NDbUnitTest.csproj", "{8D357EF8-9E86-4817-B6F8-31AE395CA6FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85620663-E041-4E49-9B71-6C6676AD1773}"
+	ProjectSection(SolutionItems) = preProject
+		Assisjrs.Nunit.Extensions.vsmdi = Assisjrs.Nunit.Extensions.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Assisjrs.Nunit.Extensions.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -13,6 +25,10 @@ Global
 		{B36883E7-FE68-4DDD-8345-887D7493ABE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B36883E7-FE68-4DDD-8345-887D7493ABE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B36883E7-FE68-4DDD-8345-887D7493ABE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D357EF8-9E86-4817-B6F8-31AE395CA6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D357EF8-9E86-4817-B6F8-31AE395CA6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D357EF8-9E86-4817-B6F8-31AE395CA6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D357EF8-9E86-4817-B6F8-31AE395CA6FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
